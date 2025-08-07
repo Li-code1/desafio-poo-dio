@@ -1,0 +1,10 @@
+public class MaterialIntermediario extends Material {
+    public MaterialIntermediario(String nome, String descricao) {
+        super(nome, descricao);
+    }
+
+    @Override
+    public void apresentarMaterial() {
+        System.out.println("Material Intermediário: " + getNome() + ", Descrição: " + getDescricao());
+    }
+}

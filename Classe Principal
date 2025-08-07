@@ -1,0 +1,21 @@
+public class Principal {
+    public static void main(String[] args) {
+        // Criar curso
+        Curso curso = new Curso("Inglês");
+
+        // Criar alunos
+        Aluno aluno1 = new Aluno("João", "joao@email.com", "123456789");
+        Aluno aluno2 = new Aluno("Maria", "maria@email.com", "987654321");
+
+        // Adicionar alunos ao curso
+        curso.adicionarAluno(aluno1);
+        curso.adicionarAluno(aluno2);
+
+        // Criar materiais
+        Material material1 = new MaterialBasico("Livro de Inglês Básico", "Livro para aprender inglês básico");
+        Material material2 = new MaterialIntermediario("Vídeo de Inglês Intermediário", "Vídeo para aprender inglês intermediário");
+        Material material3 = new MaterialAvancado("Curso de Inglês Avançado", "Curso para aprender inglês avançado");
+
+        // Adicionar materiais ao curso
+        curso.adicionarMaterial(material1);
+        curso.adicionarMaterial(material2);

@@ -1,9 +1,55 @@
-<h1> Desafio: Aprenda na Prática Programação Orientada a Objetos</h1>
+Desafio utilizando a linguagem Java e com a Programação Orientada a Objetos (POO) com Java , os pilares da OO são devidamente formalizados: Abstração, Encapsulamento, Herança e Polimorfismo. Referência ao desafio-poo-dio com os conhecimentos obtidos nas aulas da DIO.
 
-<p align="center"> 📜 <a href="https://academiapme-my.sharepoint.com/:p:/g/personal/camila_cavalcante_dio_me/EaXyYOjBaFpZjkxhexMo5EcBKMEEAI5t5aHlsTjnBQJlUw?e=nxdB6C"> SLIDES APRESENTADO NO PROJETO </a> 📜 </P>
-<p> Sejam bem-vindos ao desafio: <strong>APRENDENDO NA PRÁTICA O PARADIGMA DE ORIENTAÇÃO A OBJETOS.</strong><br>Desafio este que tive a honra de co-criar com a plataforma de cursos online <strong><a href="https://web.digitalinnovation.one/">DIGITAL INNOVATION ONE</a></strong> 💛🧡 e disponibilizado de forma gratuita para a comunidade dos desenvolvedores Java.<br>
-    💎 O objetivo principal é colocar em prática umas das principais ferramentas da OO: <strong>ABSTRAÇÃO, ENCAPSULAMENTO, HERANÇA E POLIMORFISMO,</strong> através de um projeto Java. </p>
+Programa de Curso de inglês 
 
+Esse programa é um sistema de gerenciamento de cursos de inglês que utiliza Programação Orientada a Objetos (POO) em Java. Aqui está uma visão geral de como funciona:
+
+Classes e Objetos
+
+- Aluno: Representa um aluno que está matriculado no curso. Cada aluno tem um nome, email e telefone.
+- Material: É uma classe abstrata que representa um material de estudo, como um livro ou vídeo.
+
+ Existem três subclasses de Material:
+
+ MaterialBasico, MaterialIntermediario e MaterialAvancado, cada uma representando um nível de dificuldade diferente.
+
+- Curso: Representa um curso de inglês que pode ter vários alunos e materiais.
+
+Funcionalidades
+
+- Adicionar Alunos: O curso pode adicionar alunos, que são armazenados em uma lista.
+
+- Adicionar Materiais: O curso pode adicionar materiais de estudo, que também são armazenados em uma lista.
+
+- Listar Alunos: O curso pode listar todos os alunos matriculados.
+
+- Apresentar Materiais: O curso pode apresentar todos os materiais de estudo, mostrando o nome e a descrição de cada material.
+
+Herança e Polimorfismo
+
+- Herança: A classe Material é uma classe abstrata que é herdada pelas subclasses MaterialBasico, MaterialIntermediario e MaterialAvancado. Isso permite que as subclasses compartilhem os atributos e métodos da classe pai.
+
+- Polimorfismo: O método apresentarMaterial() é declarado na classe Material e implementado de forma diferente em cada subclasse. Isso permite que os objetos das subclasses sejam tratados como objetos da classe pai, mas ainda assim exibam comportamento específico.
+
+Execução do Programa
+
+1. O programa cria um curso de inglês e adiciona dois alunos a ele.
+
+2. Em seguida, cria três materiais de estudo: um básico, um intermediário e um avançado.
+
+3. Os materiais são adicionados ao curso.
+
+4. O programa lista todos os alunos matriculados no curso.
+
+5. Por fim, apresenta todos os materiais de estudo do curso, mostrando o nome e a descrição de cada material.
+
+Vantagens
+
+- Reutilização de Código: A herança e o polimorfismo permitem que o código seja reutilizado e adaptado para diferentes situações.
+
+- Organização: A POO ajuda a organizar o código de forma lógica e estruturada, tornando-o mais fácil de entender e manter.
+
+- Flexibilidade: O programa pode ser facilmente estendido para incluir novos tipos de materiais ou cursos, graças à herança e ao polimorfismo.
 
 
 <h2>🛑 Pré-Requisitos</h2>

@@ -1,0 +1,50 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class Curso {
+    private String nome;
+    private List<Aluno> alunos;
+    private List<Material> materiais;
+
+    public Curso(String nome) {
+        this.nome = nome;
+        this.alunos = new ArrayList<>();
+        this.materiais = new ArrayList<>();
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void adicionarAluno(Aluno aluno) {
+        this.alunos.add(aluno);
+    }
+
+    public void removerAluno(Aluno aluno) {
+        this.alunos.remove(aluno);
+    }
+
+    public void adicionarMaterial(Material material) {
+        this.materiais.add(material);
+    }
+
+    public void removerMaterial(Material material) {
+        this.materiais.remove(material);
+    }
+
+    public void listarAlunos() {
+        for (Aluno aluno : alunos) {
+            System.out.println("Nome: " + aluno.getNome() + ", Email: " + aluno.getEmail() + ", Telefone: " + aluno.getTelefone());
+        }
+    }
+
+    public void apresentarMateriais() {
+        for (Material material : materiais) {
+            material.apresentarMaterial();
+        }
+    }
+}

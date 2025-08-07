@@ -1,4 +1,4 @@
-Desafio utilizando a linguagem Java e com a Programação Orientada a Objetos (POO) com Java , os pilares da OO são devidamente formalizados: Abstração, Encapsulamento, Herança e Polimorfismo. Referência ao desafio-poo-dio com os conhecimentos obtidos nas aulas da DIO.
+Desafio utilizando a Programação Orientada a Objetos (POO) com Java , os pilares da OO são devidamente formalizados: Abstração, Encapsulamento, Herança e Polimorfismo. Referência ao desafio-poo-dio com os conhecimentos obtidos nas aulas da DIO.
 
 Programa de Curso de inglês 
 
